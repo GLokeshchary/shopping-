@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.items{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: "Montserrat",sans-serif;
+}
+.items span{
+white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.product-container{
+    position: relative;
+}
+.remove-product{
+    position: absolute;
+    top:10px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+.brand{
+    font-weight: 900;
+}
+.sizeclass{
+    font-weight: 100;
+}

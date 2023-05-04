@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+body {
+    margin: 0;
+}
+.nav_container{
+    width: 100%;
+    height: 56px;
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    position: relative;
+    background-color: ghostwhite;
+    box-shadow: 2px beige;
+    
+}
+.flex-item1{
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+}
+.flex-item1 h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+}
+.flex-item2{
+    color: grey;
+    font-size:large;
+    font-family: "Poppins", 'Arial Narrow', Arial, sans-serif;
+    padding-top: 19px;
+}
+.flex-item2:hover{
+    border-bottom: 5px solid yellow;
+    cursor: pointer;
+}
+.flex-item3{
+    
+    padding-top: 5px;
+}
+.img-item {
+    height:54px;
+    padding: 2px;
+    padding-bottom: 2px;
+    border-radius: 10%;
+}
+.flex-item4{
+    padding-top: 15px;
+    font-family: "Poppins", 'Arial Narrow', Arial, sans-serif;
+}
+.flex-item4:hover{
+    border-bottom: 5px solid yellow;
+    cursor: pointer;
+}

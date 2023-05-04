@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.container{
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('https://png.pngtree.com/background/20210710/original/pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-material-picture-image_1048684.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height:100vh;
+}
+.container .heading{
+}
+
+.login-container>form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    padding: 32px;
+    height: 43vh;
+    border-radius: 8px;
+}
+.heading0{
+    color: wheat;
+    margin: 0;
+    font-style: oblique;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.heading h2{
+    color: wheat;
+    margin: 0;
+}
+
+.foot h5{
+    color: whitesmoke;
+}
+.login-heading{
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat";
+}
+.fontfamily{
+    font-family: "Montserrat";
+}
